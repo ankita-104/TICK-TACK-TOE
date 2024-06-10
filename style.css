@@ -1,0 +1,23 @@
+#gamec{
+   text-align: center;
+}
+#cellstack{
+    display:grid;
+    grid-template-columns:repeat(3,auto) ;
+    width:234.6px;
+    /* height: 225px; */
+    margin:auto;
+    border:2px solid;
+}
+
+.cell{
+    width: 75px;
+    height:75px;
+    border: 2px solid;
+    font-size: 60px;
+    cursor: pointer;
+}
+.cell:hover{
+    background-color: rgba(63, 17, 17, 0.5);
+   
+}
